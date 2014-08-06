@@ -49,7 +49,7 @@ if __name__=="__main__":
 
   label = "Tank"
   tank=det.addComponent(label, label,blank_location=False)
-  det.addLocationRTP(tank,"0","theta0 0.0+theta0","0","0","theta0 0.0+theta0","0")
+  det.addLocationRTP(tank,"0","s2 0.0+s2","0","0","s2 0.0+s2","0")
   doc_handle = det.makeTypeElement(label)
   num_dets=len(info["name"])
   for i in range(num_dets):
